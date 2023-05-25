@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="projetos">
+        <div class="container">
+          <h2>Projetos</h2>
+          <div class="card">
+            <img src="img/projeto1.jpg" alt="Imagem do Projeto 1">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto 1</p>
+          </div>
+          <div class="card">
+            <img src="img/projeto2.jpg" alt="Imagem do Projeto 2">
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto 2</p>
+          </div>
+          <div class="card">
+            <img src="img/projeto3.jpg" alt="Imagem do Projeto 3">
+            <h3>Projeto 3</h3>
+            <p>Descrição do projeto 3</p>
+          </div>
+        </div>
+      </section>
+    
+</body>
+</html>
+
+
+
+
+
+body{
+  background: linear-gradient(to right, red, blue); /* Define um gradiente linear do azul ao amarelo */
+    transition: background 1s ease; /* Adiciona uma transição suave de 1 segundo na mudança de cor */
+    color: #fff;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  nav a:hover {
+    color: #f3f3f3;
+  }
+  
+  #redes-sociais {
+    display: flex;
+  }
+  
+  #redes-sociais img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para a seção "Sobre Mim" */
+  #sobre-mim {
+    background-color: #f3f3f3;
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(to right, red, blue); /* Define um gradiente linear do azul ao amarelo */
+    transition: background 1s ease; /* Adiciona uma transição suave de 1 segundo na mudança de cor */
+  }
+  
+  #sobre-mim img {
+    width: 50%;
+    max-width: 500px;
+    margin: 30px 0;
+  }
+  
+  #sobre-mim p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para a seção "Como Eu Trabalho" */
+  #como-eu-trabalho {
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(to right, red, blue); /* Define um gradiente linear do azul ao amarelo */
+    transition: background 1s ease; /* Adiciona uma transição suave de 1 segundo na mudança de cor */
+}
+  
+  #como-eu-trabalho h2 {
+    margin-bottom: 20px;
+  }
+  
+  #como-eu-trabalho p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para a seção de Projetos */
+  #projetos {
+    background-color: #f3f3f3;
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(to right, red, blue); /* Define um gradiente linear do azul ao amarelo */
+    transition: background 1s ease; /* Adiciona uma transição suave de 1 segundo na mudança de cor */
+  }
+  
+  #projetos h2 {
+    margin-bottom: 20px;
+  }
+  
+  #projetos p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  footer p:last-of-type {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para telas menores que 768px */
+  @media only screen and (max-width: 768px) {
+  
+    header {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    nav {
+      margin-top: 10px;
+      text-align: center;
+    }
+  
+    nav li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    #sobre-mim img {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    #como-eu-trabalho p,
+    #projetos p,
+    footer p {
+      font-size: 18px;
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Estilos gerais */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#redes-sociais img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Estilo do cabeçalho */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, #0052cc, #0084ff);
+  padding: 10px 20px;
+  color: #ffffff;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav li {
+  margin-right: 20px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Estilo da seção "Sobre Mim" */
+#sobre-mim {
+  background: #f2f2f2;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Estilo da seção "Como Eu Trabalho" */
+#como-eu-trabalho {
+  background: #ffffff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Estilo da seção "Projetos" */
+#projetos {
+  background: #f2f2f2;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Estilo do rodapé */
+footer {
+  background: #0052cc;
+  color: #ffffff;
+  padding: 20px;
+}
+
+/* Nova paleta de cores */
+header {
+  background: linear-gradient(to bottom, #4e89ae, #43658b);
+}
+
+nav li a:hover {
+  color: #ffac41;
+}
+
+#sobre-mim img {
+  border: 10px solid #4e89ae;
+}
+
+#como-eu-trabalho h2 {
+  color: #4e89ae;
+}
+
+#projetos h2 {
+  color: #4e89ae;
+}
+
+#projetos p:last-of-type {
+  font-weight: bold;
+}
+
+footer {
+  background: #4e89ae;
+}
+
+footer p:first-of-type {
+  font-weight: bold;
+}
+
+footer p:last-of-type {
+  font-style: italic;
+}
+
+/* Conteúdo das seções alinhados ao centro */
+#sobre-mim div,
+#como-eu-trabalho div,
+#projetos div {
+  margin: 0 auto;
+  max-width: 800px;
+}
