@@ -1,0 +1,111 @@
+body {
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 0;
+  background: linear-gradient(to bottom, #4e89ae, #43658b);
+}
+
+#sobre-mim {
+  background: linear-gradient(to bottom, #035caf, #0099ff);
+}
+
+#como-trabalho {
+  background: linear-gradient(to bottom, #0099ff, #c26903);
+}
+
+#projetos {
+  background: linear-gradient(to bottom, #b93704, #0084ff);
+}
+
+#sobre-mim img {
+  display: block;
+  margin: 0 auto 30px;
+  max-width: 100%;
+  height: auto;
+}
+
+.h2-font-size {
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 80px;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.carousel-item img {
+  max-width: 250px;
+  height: 250px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.carousel-caption h5 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.carousel-caption p {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.btn-primary {
+  background-color: #ff6600;
+  border-color: #ff6600;
+}
+
+.btn-primary:hover {
+  background-color: #cc5500;
+  border-color: #cc5500;
+}
+
+footer {
+  text-align: center;
+  background-color: #4e89ae;
+  padding: 20px;
+  color: #ffffff;
+}
+
+#redes-sociais {
+  margin-top: 20px;
+}
+
+#redes-sociais a {
+  margin: 0 10px;
+}
+
+#redes-sociais img {
+  width: 30px;
+  height: 30px;
+}
